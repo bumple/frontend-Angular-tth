@@ -7,7 +7,7 @@ import {RegisterComponent} from "./components/layouts/pages/register/register.co
 const routes: Routes = [
   {
     path: '',
-    component: LayoutsComponent
+    component: LayoutsComponent,
   },
   {
     path: 'login',
