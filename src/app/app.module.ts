@@ -12,6 +12,8 @@ import { UserProfileComponent } from './components/users/user-profile/user-profi
 import { CategoryListComponent } from './components/categories/category-list/category-list.component';
 import { WalletInfoComponent } from './components/wallets/wallet-info/wallet-info.component';
 import { TransactionsListComponent } from './components/transactions/transactions-list/transactions-list.component';
+import {HttpClientModule} from "@angular/common/http";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { TransactionsListComponent } from './components/transactions/transaction
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
